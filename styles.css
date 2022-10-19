@@ -1,2 +1,14 @@
 
 /* Your CSS Code here. */
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background: url("image.png");
+}
+h2{
+    text-align: center;
+}
+    
+
