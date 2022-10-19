@@ -5,27 +5,40 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 	<title>Dog Adoption Application</title>
+	<style>
+		body{background-color: powderblue;}
+		div.main{
+			text-align: left;
+			border-style:solid ;
+			border-radius: 2px;
+			
+		}
+		h1{text-align: center;}
+		.submit{
+			text-align: center;
+		}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-	<h2>Dog Adoption Application</h2>
-	
+	<h1>Dog Adoption Application</h1>
+	<br><br><br><br>
 	<div class="main">
 	<label>NAME</label>
-	<br>
+	
 	<input type="text" use id ="name" placeholder="NAME">
 	<br><br>
 	<label>Phone Number</label>
-	<br>
+	
 	<input type="text" use id ="phone" placeholder="Phone Number">
 	<br><br>
 	<label>Address</label>
-	<br>
+	
 	<input type="text" use id ="address" placeholder="Address">
 	<br><br>
 	<label>Have you ever lived with a dog</label>
-	<br>
+	
 	<input type="checkbox" name="Have you ever lived with a dog" id="checkbox">
 	<br><br>
 	<label>Please select your preferred breeds</label>
@@ -39,8 +52,11 @@
 	<input type="radio">
 	<multi-select>husky</multi-select>
 	<br><br>
+    </div>
+    <div class="submit">
 	<label>submit</label>
 	<br>
+	
 	<input type="submit" name="submit" id="submit">
 	</div>
 	
