@@ -6,58 +6,88 @@
 	<link rel="stylesheet" href="styles.css">
 	<title>Dog Adoption Application</title>
 	<style>
-		body{background-color: powderblue;}
-		div.main{
-			text-align: left;
-			border-style:solid ;
-			border-radius: 2px;
+		body{
+			background: url(https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg);
+			background-size: cover;
+			background-repeat: no-repeat;
 			
 		}
-		h1{text-align: center;}
-		.submit{
-			text-align: center;
+			
+		h1{text-align: center;
+		margin-top: 25px;
+		color: beige;
+
+		
 		}
+		.main{
+			
+			margin-left: 35%;
+			margin-right: 35%;
+		}
+		form{
+			border:5px solid ;
+			background-color:bisque;
+			opacity: 50%;
+			margin-top: 25px;
+			margin-bottom: auto;
+			padding-top: 10px;
+			padding-left: 10px;
+			padding-bottom: 10px;
+			
+		}
+		h3{
+			text-align: center;
+			padding-bottom: 10px;
+		}
+		
+		tr{
+			
+			padding-bottom: 25px;
+		}
+		td{text-align: left;
+			padding-bottom: 10px;
+			
+
+		}
+	
+		
+		
 	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-	<h1>Dog Adoption Application</h1>
-	<br><br><br><br>
+	<h1>Dog Adoption </h1>
+
 	<div class="main">
-	<label>NAME</label>
-	
-	<input type="text" use id ="name" placeholder="NAME">
-	<br><br>
-	<label>Phone Number</label>
-	
-	<input type="text" use id ="phone" placeholder="Phone Number">
-	<br><br>
-	<label>Address</label>
-	
-	<input type="text" use id ="address" placeholder="Address">
-	<br><br>
-	<label>Have you ever lived with a dog</label>
-	
-	<input type="checkbox" name="Have you ever lived with a dog" id="checkbox">
-	<br><br>
-	<label>Please select your preferred breeds</label>
-	<br>
-	<input type="radio">
-	<multi-select>lab</multi-select>
-	<br>
-	<input type="radio">
-	<multi-select>bull dog</multi-select>
-	<br>
-	<input type="radio">
-	<multi-select>husky</multi-select>
-	<br><br>
-    </div>
-    <div class="submit">
-	<label>submit</label>
-	<br>
-	
-	<input type="submit" name="submit" id="submit">
+		<form >
+			<h3>Application form</h3>
+			<table>
+				<tr><td><label>NAME</label></td>
+				<td><input type="text" use id ="name" placeholder="NAME"></td>
+				</tr>
+				<tr><td><label>Phone Number</label></td>
+					<td><input type="text" use id ="phone" placeholder="Phone Number"></td>
+				</tr>
+				<tr><td><label>Address</label></td>
+					<td><input type="text" use id ="address" placeholder="Address"></td>
+				</tr>
+			    </tr>
+			    <tr><td><label>Have you ever lived with a dog</label></td>
+				<td><input type="checkbox" name="Have you ever lived with a dog" id="checkbox" ></td>
+			     </tr>
+ 				<tr><td><label>Please select your preferred breeds</label></td>
+					<td>	<input type="radio">
+						<multi-select>lab</multi-select>
+						<input type="radio">
+						<multi-select>bull dog</multi-select>
+						<input type="radio">
+						<multi-select>husky</multi-select></td>
+				</tr>
+				<tr><td><input type="submit" name="submit" id="submit"></td>
+				</tr>
+	</table>
+	</form>
 	</div>
 	
 
