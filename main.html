@@ -77,19 +77,19 @@
 				<td><label><input type="checkbox" id="checkbox" name="address" value="Have you ever lived with a Dog before?">Have you ever lived with a Dog before?</label>
 				</td>
 			     </tr>
- 				<tr><td><label>Please select your preferred breeds</label></td>
+ 				<tr><td><label for="multiselect"> Please select your preferred breeds</label></td>
 					<td>	
-						<select id="multiSelect" multiple>
-							<input type="radio">
-							<option value="lab"></option>
-							<input type="radio">
-							<option value="bull dog"></option>
-							<input type="radio">
-							<option value="husky"></option>
+						<select name="multiselect" id="multiSelect" multiple>
+							
+							<option value="breed 1">lab</option>
+							
+							<option value="breed 2">bull dog</option>
+							
+							<option value="breed 3">husky</option>
 							</select>
 						  
 				</tr>
-				<tr><td><input type="submit" name="submit" id="submit" value="Submit"></td>
+				<tr><td><label for="submit"><input type="submit" name="submit" id="submit" value="Submit"></label></td>
 				</tr>
 	</table>
 	</form>
