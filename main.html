@@ -63,8 +63,8 @@
 		<form >
 			<h3>Application form</h3>
 			<table>
-				<tr><td><label>NAME</label></td>
-				<td><input type="text" use id ="name" placeholder="NAME"></td>
+				<tr><td><label>Name</label></td>
+				<td><input type="text"  id ="name" placeholder="Name" name="name"></td>
 				</tr>
 				<tr><td><label>Phone Number</label></td>
 					<td><input type="text" use id ="phone" placeholder="Phone Number"></td>
@@ -74,17 +74,22 @@
 				</tr>
 			    </tr>
 			    <tr><td><label>Have you ever lived with a dog</label></td>
-				<td><input type="checkbox" name="Have you ever lived with a dog" id="checkbox" ></td>
+				<td><label><input type="checkbox" id="checkbox" name="address" value="Have you ever lived with a Dog before?">Have you ever lived with a Dog before?</label>
+				</td>
 			     </tr>
  				<tr><td><label>Please select your preferred breeds</label></td>
-					<td>	<input type="radio">
-						<multi-select>lab</multi-select>
-						<input type="radio">
-						<multi-select>bull dog</multi-select>
-						<input type="radio">
-						<multi-select>husky</multi-select></td>
+					<td>	
+						<select id="multiSelect" multiple>
+							<input type="radio">
+							<option value="lab"></option>
+							<input type="radio">
+							<option value="bull dog"></option>
+							<input type="radio">
+							<option value="husky"></option>
+							</select>
+						  
 				</tr>
-				<tr><td><input type="submit" name="submit" id="submit"></td>
+				<tr><td><input type="submit" name="submit" id="submit" value="Submit"></td>
 				</tr>
 	</table>
 	</form>
